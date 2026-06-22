@@ -1,6 +1,7 @@
 import StudentForm from "./components/StudentForm";
 import StudentList from "./components/StudentList";
 import GradeForm from "./components/GradeForm";
+import CGPAForm from "./components/CGPAForm";
 function App() {
   return (
     <div>
@@ -9,8 +10,10 @@ function App() {
       <StudentForm />
 
       <hr />
+       <StudentList />
       <GradeForm />
-      <StudentList />
+      <CGPAForm />
+     
     </div>
   );
 }
